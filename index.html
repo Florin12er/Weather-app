@@ -3,19 +3,24 @@
     <head>
         <meta charset= "UTF-8">
         <title>Document</title>
+        <link rel="stylesheet" href="/home/sebastian/Weather-app/style.css">
     </head>
     <body>
         <div class = "wheather">
             <div class = "current">
                 Current Weather
-            </div>
+            </div>       
+            <label>
+            <input class= "city"  type="text" name="city" placeholder="type a city">
+            </label>
             <button type="button" class = "enter">
                 ENTER
             </button>
-            <label for="city"></label>
-            <input type="text" name="city" placeholder="type a city">
+            <div class = "content">
+                <label class="switch"></label>
+            </div>
         </div>
     </body>
-    <script> src="/home/sebastian/Weather-app/dist/main.js"</script>
+    <script src="/home/sebastian/Weather-app/index.js"></script>
 </html>
 
