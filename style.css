@@ -1,44 +1,39 @@
 :root {
-    margin : 0;
-    padding : 0;
+  margin: 0;
+  padding: 0;
 }
-
 
 body {
-    height: 885px;
-    display : flex;
-    align-items: center;
-    justify-content: center;
-    margin: 0;
+  height: 885px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0;
 }
-
-
 
 .current {
   font-size: clamp(90px, 90px, 70px);
-    margin: 20px;
+  margin: 20px;
 }
 
- .city {
-     width: clamp(19rem , 30rem , 30rem);
-     height: 3rem;
-     font-size: 2rem;
-     margin-left: 20px;
- }
+.city {
+  width: clamp(19rem, 30rem, 30rem);
+  height: 3rem;
+  font-size: 2rem;
+  margin-left: 20px;
+}
 
- .enter {
-     width: 110px;
-     height: 55px;
-     font-size: 1.8rem;
- }
+.enter {
+  width: 110px;
+  height: 55px;
+  font-size: 1.8rem;
+}
 
 .content {
-    height: 500px;
-    display: flex;
-    align-items: end;
-   }
-
-
+  height: 500px;
+  display: flex;
+  align-items: end;
+}
 
 .switch {
   position: relative;
@@ -47,7 +42,7 @@ body {
   height: 34px;
 }
 
-.switch input { 
+.switch input {
   opacity: 0;
   width: 0;
   height: 0;
@@ -61,8 +56,8 @@ body {
   right: 0;
   bottom: 0;
   background-color: #ccc;
-  -webkit-transition: .4s;
-  transition: .4s;
+  -webkit-transition: 0.4s;
+  transition: 0.4s;
 }
 
 .slider:before {
@@ -73,16 +68,16 @@ body {
   left: 4px;
   bottom: 4px;
   background-color: white;
-  -webkit-transition: .4s;
-  transition: .4s;
+  -webkit-transition: 0.4s;
+  transition: 0.4s;
 }
 
 input:checked + .slider {
-  background-color: #2196F3;
+  background-color: #2196f3;
 }
 
 input:focus + .slider {
-  box-shadow: 0 0 1px #2196F3;
+  box-shadow: 0 0 1px #2196f3;
 }
 
 input:checked + .slider:before {
@@ -90,7 +85,6 @@ input:checked + .slider:before {
   -ms-transform: translateX(26px);
   transform: translateX(26px);
 }
-
 
 .slider {
   border-radius: 34px;
@@ -101,8 +95,8 @@ input:checked + .slider:before {
 }
 
 .switch-text {
-    margin: 10px;
+  margin: 10px;
 
-   width: 24rem; 
-    font-size: 2rem; 
+  width: 24rem;
+  font-size: 2rem;
 }
