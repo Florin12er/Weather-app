@@ -1,4 +1,5 @@
 :root {
+  --font-size: 2rem;
   margin: 0;
   padding: 0;
 }
@@ -19,7 +20,7 @@ body {
 .city {
   width: clamp(19rem, 30rem, 30rem);
   height: 3rem;
-  font-size: 2rem;
+  font-size: var(--font-size);
   margin-left: 20px;
 }
 
@@ -30,9 +31,12 @@ body {
 }
 
 .content {
+  font-size: var(--font-size);
   height: 500px;
   display: flex;
-  align-items: end;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-end;
 }
 
 .switch {
@@ -96,7 +100,14 @@ input:checked + .slider:before {
 
 .switch-text {
   margin: 10px;
-
   width: 24rem;
-  font-size: 2rem;
+}
+
+.wind-speed {
+  margin-bottom: 50px;
+}
+
+img {
+  width: 200px;
+  height: 200px;
 }
