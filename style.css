@@ -1,3 +1,5 @@
+@import url("https://fonts.googleapis.com/css2?family=Edu+TAS+Beginner&display=swap");
+
 :root {
   --font-size: 2rem;
   margin: 0;
@@ -10,6 +12,10 @@ body {
   align-items: center;
   justify-content: center;
   margin: 0;
+  background-image: url("https://wallpaperaccess.com/full/1540001.jpg");
+  background-size: 100%;
+  color: white;
+  font-family: "Edu TAS Beginner", cursive;
 }
 
 .current {
@@ -101,6 +107,7 @@ input:checked + .slider:before {
 .switch-text {
   margin: 10px;
   width: 24rem;
+  margin-left: 150px;
 }
 
 .wind-speed {

@@ -2,14 +2,19 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <title>Document</title>
-    <link rel="stylesheet" href="/home/sebastian/Weather-app/style.css" />
+    <title>Weather App</title>
+    <link rel="stylesheet" href="style.css" />
   </head>
   <body>
-    <div class="wheather">
+    <div class="weather">
       <div class="current">Current Weather</div>
       <label>
-        <input class="city" type="text" name="city" placeholder="type a city" />
+        <input
+          class="city"
+          type="text"
+          name="city"
+          placeholder="Enter a city"
+        />
       </label>
       <button type="button" class="enter">ENTER</button>
       <div class="content">
@@ -18,10 +23,13 @@
         <div class="condition"></div>
         <img class="condition-image" />
         <div class="wind-speed"></div>
-        <label class="switch"></label>
-        <div class="celsius">Change to °Celsius</div>
+        <label class="switch">
+          <input class="switch-input" type="checkbox" />
+          <span class="slider"></span>
+        </label>
+        <div class="switch-text">Change to °Celsius</div>
       </div>
     </div>
   </body>
-  <script src="/home/sebastian/Weather-app/index.js"></script>
+  <script src="index.js"></script>
 </html>
