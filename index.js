@@ -192,7 +192,7 @@ document.addEventListener("DOMContentLoaded", () => {
         switchText.innerHTML = "Change to °Celsius";
       });
   }
-   enterButton.addEvenListener("touchstart", () => {
+   enterButton.addEventListener("touchstart", () => {
 getWheather();
 })
   enterButton.addEventListener("click", () => {
